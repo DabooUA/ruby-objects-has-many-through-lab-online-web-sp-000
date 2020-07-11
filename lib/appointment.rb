@@ -13,7 +13,7 @@ class Appointment
   end
 
   def save
-    @all << self
+    @@all << self
   end
 
   def new_appointment
