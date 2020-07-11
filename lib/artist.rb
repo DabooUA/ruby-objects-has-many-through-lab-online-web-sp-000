@@ -28,11 +28,8 @@ class Artist
     Song.new(name, self, genre)
   end
 
-  #def genres
-  #  Song.all.map{|song| song.genre == self}
-  #end
   def genres
     songs.map {|song| song.genre}
   end
-  
+
 end
