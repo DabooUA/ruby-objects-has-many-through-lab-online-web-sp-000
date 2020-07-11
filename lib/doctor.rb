@@ -6,6 +6,10 @@ class Doctor
 
   end
 
+  def self.all
+    @@all
+  end
+
   def new_appointment
 
   end
