@@ -4,6 +4,7 @@ class Doctor
 
   def initialize
 
+    save
   end
 
   def self.all
