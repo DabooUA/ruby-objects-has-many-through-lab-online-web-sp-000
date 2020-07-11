@@ -5,6 +5,7 @@ class Appointment
 
   def initialize
 
+    save
   end
 
   def new_appointment
