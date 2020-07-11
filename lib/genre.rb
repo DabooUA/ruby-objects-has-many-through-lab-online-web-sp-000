@@ -14,7 +14,7 @@ class Genre
   end
 
   def save
-
+    @@all<<self
   end
 
   def songs
