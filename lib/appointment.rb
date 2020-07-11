@@ -16,14 +16,4 @@ class Appointment
     @@all << self
   end
 
-  def new_appointment
-
-  end
-
-  def appointments
-
-  end
-
-
-
 end
