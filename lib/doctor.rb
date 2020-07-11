@@ -14,7 +14,7 @@ class Doctor
   end
 
   def save
-    @all << self
+    @@all << self
   end
 
   def new_appointment(date, patient)
