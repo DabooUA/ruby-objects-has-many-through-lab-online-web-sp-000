@@ -1,5 +1,7 @@
 class Doctor
 
+  attr_accessor :date
+  
   @@all = []
 
   def initialize
