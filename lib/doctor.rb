@@ -4,7 +4,7 @@ class Doctor
 
   @@all = []
 
-  def initialize(date)
+  def initialize(name)
     @date = date
     save
   end
