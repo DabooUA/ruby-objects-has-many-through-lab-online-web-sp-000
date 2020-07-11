@@ -10,6 +10,10 @@ class Doctor
     @@all
   end
 
+  def save
+    @all << self
+  end
+
   def new_appointment
 
   end
