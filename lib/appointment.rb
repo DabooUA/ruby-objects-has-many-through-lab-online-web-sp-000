@@ -1,9 +1,10 @@
 class Appointment
 
+  attr_accessor
 
   @@all = []
 
-  def initialize("date", patient, doctor)
+  def initialize(date = " ", patient, doctor)
 
     save
   end
